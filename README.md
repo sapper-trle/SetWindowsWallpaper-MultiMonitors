@@ -55,5 +55,5 @@ So I needed to install all required packages into portable version of Thonny on 
 
 
 
-I also had to install pip-system-certs package into Thonny to fix SSL certificate errors on target PC for "https://bing.biturl.top"
+I also had to install pip-system-certs package into Thonny to fix SSL certificate errors on target PC for `"https://bing.biturl.top"`
 
