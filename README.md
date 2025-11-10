@@ -1,12 +1,7 @@
 
+# Set Windows Wallpaper Multi Monitor
 
-\# Set Windows Wallpaper Multi Monitor
-
-
-
-\## Introduction
-
-
+## Introduction
 
 I have a dual monitor setup and wished to use the Bing Wallpaper App to change the wallpaper on my PC daily.
 
@@ -18,11 +13,7 @@ Doing this disables the daily refresh setting in the Bing Wallpaper App.
 
 So I wrote a python script to download the daily Bing Wallpaper and set it as wallpaper for monitor 2.
 
-
-
-\## Instructions
-
-
+## Instructions
 
 Install the required python packages listed in "requirements.txt"
 
@@ -38,15 +29,10 @@ Images that are recorded in the database will not be downloaded again.
 
 The script will only set the wallpaper on monitor 2 if it downloads a new image.
 
-
-
-\## Notes
-
-
+## Notes
 
 "bing\_wallpaper\_downloader.py" copied from here.
-
-\[https://github.com/xTayEx/BingWallpaperDownloader](https://github.com/xTayEx/BingWallpaperDownloader)
+https://github.com/xTayEx/BingWallpaperDownloader
 
 Main modifications:
 
@@ -57,14 +43,10 @@ Main modifications:
 
 Run "bing\_wallpaper\_downloader.py" standalone to download Bing wallpapers only.
 
-
-
 "IDesktopWallpaper.py" code copied from here.
-
-\[https://stackoverflow.com/questions/66375014/is-it-possible-to-use-idesktopwallpaper-in-python](https://stackoverflow.com/questions/66375014/is-it-possible-to-use-idesktopwallpaper-in-python)
+https://stackoverflow.com/questions/66375014/is-it-possible-to-use-idesktopwallpaper-in-python
 
 Run "IDesktopWallpaper.py" standalone to list the current wallpaper images for all monitors.
-
 
 
 I was able to run this script on a PC without admin rights using portable version of Thonny Python IDE.
