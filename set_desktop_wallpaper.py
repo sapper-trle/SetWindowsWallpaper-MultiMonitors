@@ -42,7 +42,7 @@ def main(whichMonitor, override=False, index=None):
     idw.ListCurrentWallpapers()
 
 if __name__ == "__main__":
-    monitor_num = 1     # 1 = first monitor, 2 = second monitor, etc
+    monitor_num = 2     # 1 = first monitor, 2 = second monitor, etc
     override = False    # True -> Bing Wallpaper downloaded even if already downloaded.
                         # Note wallpaper is changed only if an image is downloaded
     index = 0           # which Bing Wallpaper, 0 = today's, 1 = yesterday's, 2 = 2 days ago, etc
