@@ -47,3 +47,4 @@ if __name__ == "__main__":
                         # Note wallpaper is changed only if an image is downloaded
     index = 0           # which Bing Wallpaper, 0 = today's, 1 = yesterday's, 2 = 2 days ago, etc
     main(monitor_num, override, index) 
+    
